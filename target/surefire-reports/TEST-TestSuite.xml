@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="7.872" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/abdulsajeedmohammed/eclipse-workspace/Appium/target/test-classes:/Users/abdulsajeedmohammed/eclipse-workspace/Appium/target/classes:/Users/abdulsajeedmohammed/.m2/repository/io/appium/java-client/9.3.0/java-client-9.3.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-api/4.29.0/selenium-api-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.29.0/selenium-remote-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/abdulsajeedmohammed/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-http/4.29.0/selenium-http-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-json/4.29.0/selenium-json-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.29.0/selenium-manager-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-os/4.29.0/selenium-os-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-support/4.29.0/selenium-support-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/abdulsajeedmohammed/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/abdulsajeedmohammed/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/abdulsajeedmohammed/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/abdulsajeedmohammed/.m2/repository/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar:/Users/abdulsajeedmohammed/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/Users/abdulsajeedmohammed/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/Users/abdulsajeedmohammed/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/Users/abdulsajeedmohammed/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/abdulsajeedmohammed/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/abdulsajeedmohammed/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/abdulsajeedmohammed/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/abdulsajeedmohammed/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-java/4.29.0/selenium-java-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.29.0/selenium-chrome-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.29.0/selenium-chromium-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.29.0/selenium-devtools-v131-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.29.0/selenium-devtools-v132-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.29.0/selenium-devtools-v133-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.29.0/selenium-devtools-v85-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.29.0/selenium-edge-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.29.0/selenium-firefox-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.29.0/selenium-ie-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.29.0/selenium-safari-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/abdulsajeedmohammed/eclipse-workspace/Appium/target/surefire/surefirebooter-20250225020243348_3.jar /Users/abdulsajeedmohammed/eclipse-workspace/Appium/target/surefire 2025-02-25T02-02-43_312-jvmRun1 surefire-20250225020243348_1tmp surefire_0-20250225020243348_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/abdulsajeedmohammed/eclipse-workspace/Appium/target/test-classes:/Users/abdulsajeedmohammed/eclipse-workspace/Appium/target/classes:/Users/abdulsajeedmohammed/.m2/repository/io/appium/java-client/9.3.0/java-client-9.3.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-api/4.29.0/selenium-api-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.29.0/selenium-remote-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/abdulsajeedmohammed/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/abdulsajeedmohammed/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-http/4.29.0/selenium-http-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-json/4.29.0/selenium-json-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.29.0/selenium-manager-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-os/4.29.0/selenium-os-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-support/4.29.0/selenium-support-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/abdulsajeedmohammed/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/abdulsajeedmohammed/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/abdulsajeedmohammed/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/abdulsajeedmohammed/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/abdulsajeedmohammed/.m2/repository/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar:/Users/abdulsajeedmohammed/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/Users/abdulsajeedmohammed/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/Users/abdulsajeedmohammed/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/Users/abdulsajeedmohammed/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/abdulsajeedmohammed/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/abdulsajeedmohammed/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/abdulsajeedmohammed/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/abdulsajeedmohammed/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-java/4.29.0/selenium-java-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.29.0/selenium-chrome-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.29.0/selenium-chromium-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.29.0/selenium-devtools-v131-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.29.0/selenium-devtools-v132-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v133/4.29.0/selenium-devtools-v133-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.29.0/selenium-devtools-v85-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.29.0/selenium-edge-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.29.0/selenium-firefox-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.29.0/selenium-ie-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.29.0/selenium-safari-driver-4.29.0.jar:/Users/abdulsajeedmohammed/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/abdulsajeedmohammed"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/abdulsajeedmohammed/eclipse-workspace/Appium"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/abdulsajeedmohammed/eclipse-workspace/Appium/target/surefire/surefirebooter-20250225020243348_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.21+9-LTS-193"/>
+    <property name="user.name" value="abdulsajeedmohammed"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.6.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/abdulsajeedmohammed/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/qb/tlp07dr57sd4p60cs7_p4n1r0000gn/T/"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="/Users/abdulsajeedmohammed/eclipse-workspace/Appium"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/abdulsajeedmohammed/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.21+9-LTS-193"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="openUIKitCatalog" classname="org.abdul.tests.IOSTestCase3" time="1.435">
+    <system-out><![CDATA[&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.0.1
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m { address: &amp#27;[32m'127.0.0.1'&amp#27;[39m }
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver uiautomator2...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at /Users/abdulsajeedmohammed/.appium/node_modules/appium-uiautomator2-driver
+[Appium] Attempting to load driver xcuitest...
+[debug] [Appium] Requiring driver at /Users/abdulsajeedmohammed/.appium/node_modules/appium-xcuitest-driver
+[Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+[Appium] Available drivers:
+[Appium]   - uiautomator2@2.34.1 (automationName 'UiAutomator2')
+[Appium]   - xcuitest@5.9.1 (automationName 'XCUITest')
+[Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/status&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {}
+[debug] &amp#27;[38;5;16m[AppiumDriver@0e3c]&amp#27;[0m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[38;5;16m[AppiumDriver@0e3c]&amp#27;[0m Responding to client with driver.getStatus() result: {"build":{"version":"2.0.1"}}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- GET /status 200 2 ms - 39
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
+[debug] &amp#27;[38;5;0m[HTTP]&amp#27;[0m Request idempotency key: 2d5c558d-0b9d-4604-b122-1047651bf92a
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"capabilities":{"firstMatch":[{"appium:wdaLaunchTimeout":30000,"appium:deviceName":"iPhone 15","platformName":"IOS","appium:automationName":"XCuiTest","appium:app":"/Users/abdulsajeedmohammed/eclipse-workspace/Appium//src//test//java//resources//UIKitCatalog.app","appium:platformVersion":"17.0"}]}}
+[debug] &amp#27;[38;5;16m[AppiumDriver@0e3c]&amp#27;[0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{"appium:wdaLaunchTimeout":30000,"appium:deviceName":"iPhone 15","platformName":"IOS","appium:automationName":"XCuiTest","appium:app":"/Users/abdulsajeedmohammed/eclipse-workspace/Appium//src//test//java//resources//UIKitCatalog.app","appium:platformVersion":"17.0"}]}]
+[debug] &amp#27;[38;5;16m[AppiumDriver@0e3c]&amp#27;[0m Event 'newSessionRequested' logged at 1740466965782 (02:02:45 GMT-0500 (Eastern Standard Time))
+[Appium] Attempting to find matching driver for automationName 'XCuiTest' and platformName 'IOS'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/abdulsajeedmohammed/.appium/node_modules/appium-xcuitest-driver
+[debug] [Appium] Requiring driver at /Users/abdulsajeedmohammed/.appium/node_modules/appium-xcuitest-driver
+&amp#27;[38;5;16m[AppiumDriver@0e3c]&amp#27;[0m Appium v2.0.1 creating new XCUITestDriver (v5.9.1) session
+&amp#27;[38;5;16m[AppiumDriver@0e3c]&amp#27;[0m Checking BaseDriver versions for Appium and XCUITestDriver
+&amp#27;[38;5;16m[AppiumDriver@0e3c]&amp#27;[0m Appium's BaseDriver version is 9.4.2
+&amp#27;[38;5;16m[AppiumDriver@0e3c]&amp#27;[0m XCUITestDriver's BaseDriver version is 9.4.2
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m Creating session with W3C capabilities: {
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m   "alwaysMatch": {
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m     "platformName": "IOS",
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m     "appium:wdaLaunchTimeout": 30000,
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m     "appium:deviceName": "iPhone 15",
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m     "appium:automationName": "XCuiTest",
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m     "appium:app": "/Users/abdulsajeedmohammed/eclipse-workspace/Appium//src//test//java//resources//UIKitCatalog.app",
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m     "appium:platformVersion": "17.0"
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m   },
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m   "firstMatch": [
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m     {}
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m   ]
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b]&amp#27;[0m }
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Session created with session id: ad69fea8-81bf-47d3-92e7-f343495d2785
+[debug] &amp#27;[38;5;48m[XCUITest]&amp#27;[0m Current user: 'abdulsajeedmohammed'
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m No real device udid has been provided in capabilities. Will select a matching simulator to run the test.
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m iOS SDK Version set to '18.2'
+[debug] &amp#27;[38;5;48m[XCUITest]&amp#27;[0m Looking for an existing Simulator with platformName: iOS, platformVersion: 17.0, deviceName: iPhone 15
+&amp#27;[38;5;64m[iOSSim]&amp#27;[0m Constructing iOS simulator for Xcode version 16.2 with udid '405AE048-5B50-44D7-A4C8-BD5FB2B2A965'
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Determining device to run tests on: udid: '405AE048-5B50-44D7-A4C8-BD5FB2B2A965', real device: false
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Event 'xcodeDetailsRetrieved' logged at 1740466965987 (02:02:45 GMT-0500 (Eastern Standard Time))
+&amp#27;[38;5;80m[BaseDriver]&amp#27;[0m Using local app '/Users/abdulsajeedmohammed/eclipse-workspace/Appium//src//test//java//resources//UIKitCatalog.app'
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Event 'appConfigured' logged at 1740466965988 (02:02:45 GMT-0500 (Eastern Standard Time))
+[debug] &amp#27;[38;5;48m[XCUITest]&amp#27;[0m Checking whether app '/Users/abdulsajeedmohammed/eclipse-workspace/Appium//src//test//java//resources//UIKitCatalog.app' is actually present on file system
+[debug] &amp#27;[38;5;48m[XCUITest]&amp#27;[0m App is present
+[debug] &amp#27;[38;5;48m[XCUITest]&amp#27;[0m Getting bundle ID from app '/Users/abdulsajeedmohammed/eclipse-workspace/Appium//src//test//java//resources//UIKitCatalog.app': 'com.example.apple-samplecode.UICatalog'
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Event 'resetStarted' logged at 1740466965989 (02:02:45 GMT-0500 (Eastern Standard Time))
+[debug] &amp#27;[38;5;96m[simctl]&amp#27;[0m Error running 'terminate': An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=3):
+Simulator device failed to terminate com.example.apple-samplecode.UICatalog.
+found nothing to terminate
+Underlying error (domain=NSPOSIXErrorDomain, code=3):
+	The request to terminate "com.example.apple-samplecode.UICatalog" failed. found nothing to terminate
+	found nothing to terminate
+&amp#27;[38;5;48m[XCUITest]&amp#27;[0m Reset: failed to terminate Simulator application with id "com.example.apple-samplecode.UICatalog"
+&amp#27;[38;5;48m[XCUITest]&amp#27;[0m Not scrubbing third party app in anticipation of uninstall
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Event 'resetComplete' logged at 1740466966091 (02:02:46 GMT-0500 (Eastern Standard Time))
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Using WDA path: '/Users/abdulsajeedmohammed/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Using WDA agent: '/Users/abdulsajeedmohammed/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] &amp#27;[38;5;112m[IOSSimulatorLog]&amp#27;[0m Starting log capture for iOS Simulator with udid '405AE048-5B50-44D7-A4C8-BD5FB2B2A965' using simctl
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Event 'logCaptureStarted' logged at 1740466966345 (02:02:46 GMT-0500 (Eastern Standard Time))
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Setting up simulator
+[debug] &amp#27;[38;5;64m[iOSSim]&amp#27;[0m Setting preferences of 405AE048-5B50-44D7-A4C8-BD5FB2B2A965 Simulator to {"ConnectHardwareKeyboard":false}
+[debug] &amp#27;[38;5;64m[iOSSim]&amp#27;[0m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+[debug] &amp#27;[38;5;64m[iOSSim]&amp#27;[0m Updated 405AE048-5B50-44D7-A4C8-BD5FB2B2A965 Simulator preferences at '/Users/abdulsajeedmohammed/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"405AE048-5B50-44D7-A4C8-BD5FB2B2A965":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"SimulatorWindowRotationAngle":0,"SimulatorWindowGeometry":{"6E8D89F6-54DC-4388-A1F0-60F0A8606EA3":{"WindowCenter":"{717.5, 535}","WindowScale":1}},"SimulatorWindowOrientation":"Portrait","ChromeTint":""}}}
+[debug] &amp#27;[38;5;64m[iOSSim]&amp#27;[0m Got Simulator UI client PID: 20505
+&amp#27;[38;5;64m[iOSSim]&amp#27;[0m Both Simulator with UDID '405AE048-5B50-44D7-A4C8-BD5FB2B2A965' and the UI client are currently running
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Event 'simStarted' logged at 1740466966492 (02:02:46 GMT-0500 (Eastern Standard Time))
+[debug] &amp#27;[38;5;48m[XCUITest]&amp#27;[0m Verifying application platform
+[debug] &amp#27;[38;5;48m[XCUITest]&amp#27;[0m CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m App 'com.example.apple-samplecode.UICatalog' is already installed
+[debug] &amp#27;[38;5;48m[XCUITest]&amp#27;[0m Reset requested. Removing app with id 'com.example.apple-samplecode.UICatalog' from the device
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Parsed BUILD_DIR configuration value: '/Users/abdulsajeedmohammed/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/build'
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Got derived data root: '/Users/abdulsajeedmohammed/.appium/node_modules/appium-xcuitest-driver/node_modules'
+[debug] &amp#27;[38;5;48m[XCUITest]&amp#27;[0m Installing '/Users/abdulsajeedmohammed/eclipse-workspace/Appium//src//test//java//resources//UIKitCatalog.app' on Simulator with UUID '405AE048-5B50-44D7-A4C8-BD5FB2B2A965'...
+[debug] &amp#27;[38;5;48m[XCUITest]&amp#27;[0m The app has been installed successfully.
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Event 'appInstalled' logged at 1740466967204 (02:02:47 GMT-0500 (Eastern Standard Time))
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+&amp#27;[38;5;128m[DevCon Factory]&amp#27;[0m Requesting connection for device 405AE048-5B50-44D7-A4C8-BD5FB2B2A965 on local port 8100
+[debug] &amp#27;[38;5;128m[DevCon Factory]&amp#27;[0m Cached connections count: 0
+&amp#27;[38;5;128m[DevCon Factory]&amp#27;[0m Successfully requested the connection for 405AE048-5B50-44D7-A4C8-BD5FB2B2A965:8100
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] &amp#27;[38;5;144m[WD Proxy]&amp#27;[0m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[38;5;144m[WD Proxy]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] &amp#27;[38;5;144m[WD Proxy]&amp#27;[0m Got response with status 200: {"value":{"build":{"upgradedAt":"1700719959708","time":"Feb 24 2025 15:25:03","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":65535,"name":"iOS","sdkVersion":"18.0","version":"17.0.1"},"device":"iphone","ios":{"simulatorVersion":"17.0.1","ip":"192.168.2.12"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":null}
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Upgrade timestamp of the currently bundled WDA: 1700719959708
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Upgrade timestamp of the WDA on the device: 1700719959708
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Trying to start WebDriverAgent 2 times with 10000ms interval
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Event 'wdaStartAttempted' logged at 1740466967250 (02:02:47 GMT-0500 (Eastern Standard Time))
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+[debug] &amp#27;[38;5;144m[WD Proxy]&amp#27;[0m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[38;5;144m[WD Proxy]&amp#27;[0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] &amp#27;[38;5;144m[WD Proxy]&amp#27;[0m Got response with status 200: {"value":{"build":{"upgradedAt":"1700719959708","time":"Feb 24 2025 15:25:03","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":65535,"name":"iOS","sdkVersion":"18.0","version":"17.0.1"},"device":"iphone","ios":{"simulatorVersion":"17.0.1","ip":"192.168.2.12"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":null}
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Event 'wdaSessionAttempted' logged at 1740466967252 (02:02:47 GMT-0500 (Eastern Standard Time))
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Sending createSession command to WDA
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Matched '/session' to command name 'createSession'
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.example.apple-samplecode.UICatalog","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Got response with status 200: {"value":{"sessionId":"5310F1AA-C08C-4A3A-8482-0BD3AEAD595F","capabilities":{"sdkVersion":"17.0.1","device":"iphone"}},"sessionId":"5310F1AA-C08C-4A3A-8482-0BD3AEAD595F"}
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Determined the downstream protocol as 'W3C'
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Event 'wdaSessionStarted' logged at 1740466968560 (02:02:48 GMT-0500 (Eastern Standard Time))
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Event 'wdaStarted' logged at 1740466968560 (02:02:48 GMT-0500 (Eastern Standard Time))
+[debug] &amp#27;[38;5;80m[BaseDriver]&amp#27;[0m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+[debug] &amp#27;[38;5;80m[BaseDriver]&amp#27;[0m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+&amp#27;[38;5;16m[AppiumDriver@0e3c]&amp#27;[0m New XCUITestDriver session created successfully, session ad69fea8-81bf-47d3-92e7-f343495d2785 added to master session list
+[debug] &amp#27;[38;5;16m[AppiumDriver@0e3c]&amp#27;[0m Event 'newSessionStarted' logged at 1740466968561 (02:02:48 GMT-0500 (Eastern Standard Time))
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Cached the protocol value 'W3C' for the new session ad69fea8-81bf-47d3-92e7-f343495d2785
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"IOS","wdaLaunchTimeout":30000,"deviceName":"iPhone 15","automationName":"XCuiTest","app":"/Users/abdulsajeedmohammed/eclipse-workspace/Appium//src//test//java//resources//UIKitCatalog.app","platformVersion":"17.0","udid":"405AE048-5B50-44D7-A4C8-BD5FB2B2A965"}}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session 200 2780 ms - 551
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/ad69fea8-81bf-47d3-92e7-f343495d2785/timeouts&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"implicit":20000}
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Calling AppiumDriver.timeouts() with args: [null,null,null,null,20000,"ad69fea8-81bf-47d3-92e7-f343495d2785"]
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Executing command 'timeouts'
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m W3C timeout argument: {"implicit":20000}}
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Set implicit wait to 20000ms
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Responding to client with driver.timeouts() result: null
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session/ad69fea8-81bf-47d3-92e7-f343495d2785/timeouts 200 2 ms - 14
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
+Its working
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/session/ad69fea8-81bf-47d3-92e7-f343495d2785/context&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {}
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Calling AppiumDriver.getCurrentContext() with args: ["ad69fea8-81bf-47d3-92e7-f343495d2785"]
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Executing command 'getCurrentContext'
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- GET /session/ad69fea8-81bf-47d3-92e7-f343495d2785/context 200 2 ms - 22
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/ad69fea8-81bf-47d3-92e7-f343495d2785/element&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"value":"Activity Indicators","using":"accessibility id"}
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Calling AppiumDriver.findElement() with args: ["accessibility id","Activity Indicators","ad69fea8-81bf-47d3-92e7-f343495d2785"]
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Executing command 'findElement'
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Waiting up to 20000 ms for condition
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/5310F1AA-C08C-4A3A-8482-0BD3AEAD595F/element] with body: {"using":"accessibility id","value":"Activity Indicators"}
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Got response with status 200: {"value":{"ELEMENT":"24000000-0000-0000-E78C-000000000000","element-6066-11e4-a52e-4f735466cecf":"24000000-0000-0000-E78C-000000000000"},"sessionId":"5310F1AA-C08C-4A3A-8482-0BD3AEAD595F"}
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"24000000-0000-0000-E78C-000000000000","ELEMENT":"24000000-0000-0000-E78C-000000000000"}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session/ad69fea8-81bf-47d3-92e7-f343495d2785/element 200 158 ms - 137
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/session/ad69fea8-81bf-47d3-92e7-f343495d2785/element/24000000-0000-0000-E78C-000000000000/click&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m {"id":"24000000-0000-0000-E78C-000000000000"}
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Driver proxy active, passing request on via HTTP proxy
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Executing command 'proxyReqRes'
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Matched '/session/ad69fea8-81bf-47d3-92e7-f343495d2785/element/24000000-0000-0000-E78C-000000000000/click' to command name 'click'
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Proxying [POST /session/ad69fea8-81bf-47d3-92e7-f343495d2785/element/24000000-0000-0000-E78C-000000000000/click] to [POST http://127.0.0.1:8100/session/5310F1AA-C08C-4A3A-8482-0BD3AEAD595F/element/24000000-0000-0000-E78C-000000000000/click] with body: {"id":"24000000-0000-0000-E78C-000000000000"}
+[debug] &amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Got response with status 200: {"value":null,"sessionId":"5310F1AA-C08C-4A3A-8482-0BD3AEAD595F"}
+&amp#27;[38;5;32m[XCUITestDriver@018b (ad69fea8)]&amp#27;[0m Replacing sessionId 5310F1AA-C08C-4A3A-8482-0BD3AEAD595F with ad69fea8-81bf-47d3-92e7-f343495d2785
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m <-- POST /session/ad69fea8-81bf-47d3-92e7-f343495d2785/element/24000000-0000-0000-E78C-000000000000/click 200 723 ms - 65
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m 
+Activity Indicator is clicked
+]]></system-out>
+  </testcase>
+</testsuite>
